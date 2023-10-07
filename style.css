@@ -1,0 +1,93 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Fira Sans', sans-serif;
+}
+
+@font-face{
+    font-family: 'logo';
+    src: url(Fontes/Vankours.ttf);
+}
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    line-height: 1.5;
+    background-color: #ffffff;
+  }
+
+  .logoAgr{
+    height: 5em;
+    margin-left: 2em;
+    margin-top: 3em;
+  }
+
+  .header{
+    height: 10em;
+    background-color: rgb(3, 103, 3);
+    border-bottom: solid;
+  }
+
+  .textos-header{
+    height: 5em;
+    margin-top: 2.5em;   
+    
+  }
+
+  .textos-header li{
+    margin-top: 2%;
+    padding: 0.5em;    
+  }
+
+  .textos-header a{
+    color: white; 
+    font-weight: bolder;
+    font-size: large;
+  }
+  
+  .textos-header a:hover{
+    color: green; 
+  }
+
+  .container {  
+    text-align: center;
+    margin: 0 auto;
+    padding: 0 20px;
+  }
+
+  #inicio{
+    margin-top: 1.5em;
+    width: 100%;
+  }
+  .section-title{
+    width: 100%;
+    font-size: 4em;
+  }
+  .section-description{
+    font-size: 1.2em;
+  }
+
+  
+  
+
+footer {
+  background-color:rgb(3, 103, 3);
+  color: #fff;
+  padding: 40px 0;
+  text-align: center;
+  margin-top: 4em;
+}
+
+footer a{
+  color: aliceblue;
+  text-decoration: none;
+}
+
+.imgInsta{
+  margin-top: 0%;
+  height: 2em;
+  justify-content: space-around;
+}
+
