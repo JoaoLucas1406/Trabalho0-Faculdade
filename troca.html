@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Anúncio de Venda ou Troca</title>
+    <link rel="stylesheet" href="style3.css">
+</head>
+<body>
+    <a href="#top" class="scroll-to-top">Voltar ao Início</a>
+    
+    <div class="container">
+        <div class="form">
+            <h1>Publicar Anúncio</h1>
+
+            <form action="processar_anuncio.php" method="post" enctype="multipart/form-data">
+                <div class="input-box">
+                    <label for="titulo">Título do Produto :</label>
+                    <input type="text" id="titulo" name="titulo" required maxlength="24">
+                </div>
+
+                <div class="input-box">
+                    <label for="descricao">Descrição :</label>
+                    <textarea id="descricao" name="descricao" rows="4" cols="50" required maxlength="100"></textarea>
+                </div>
+
+                <div class="input-box">
+                    <label for="contato">Número de Contato :</label>
+                    <input type="text" id="contato" name="contato" required maxlength="11" oninput="this.value = this.value.replace(/[^0-9]/g, '')">
+                </div>
+
+                <div class="input-box">
+                    <label for="localizacao">Localização :</label>
+                    <input type="text" id="localizacao" name="localizacao" required maxlength="40">
+                </div>
+
+                <div class="input-box">
+                    <label for="foto">Foto do Produto:</label>
+                    <input type="file" id="foto" name="foto" accept="image/*">
+                </div>
+
+                <input type="submit" value="Publicar Anúncio">
+            </form>
+        </div>
+    </div>
+</body>
+</html>

@@ -1,0 +1,74 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    text-align: center;
+    position: relative;
+}
+
+h1 {
+    background-color:  rgb(3, 103, 3);
+    color: #fff;
+    padding: 10px;
+}
+
+form {
+    width: 80%;
+    margin: 0 auto;
+    background-color: #fff;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+label, input, textarea {
+    display: block;
+    margin-bottom: 10px;
+}
+
+input, textarea, input[type="file"] {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+}
+
+input[type="file"] {
+    margin-top: 5px;
+}
+
+input:focus, textarea:focus, input[type="file"]:focus {
+    background-color: #e6e6e6;
+}
+
+input[type="submit"], button {
+    background-color:  rgb(3, 103, 3);
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    margin-top: 10px;
+}
+
+input[type="submit"]:hover, button:hover {
+    background-color:  rgb(3, 103, 3);
+}
+
+.scroll-to-top {
+    display: none;
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    background-color:  rgb(3, 103, 3);
+    color: #fff;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.scroll-to-top:hover {
+    background-color: rgb(3, 103, 3);
+}
